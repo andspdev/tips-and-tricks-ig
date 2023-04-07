@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Server-Sent Events (SSE) | Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Chat Real-Time -->
+    <div class="chat-box align-center">
+        <div class="content">
+            <div class="title">
+                <h1>Chat Real-Time</h1>
+                <p>Server-Sent Events (SSE)</p>
+            </div>
+        </div>
+        
+        <div id="output-msg"></div>
+
+        <div class="content form-msg">
+            <form id="form-msg" class="form">
+                <textarea rows="4" placeholder="Type message here ..." id="message"></textarea><br/>
+                <button>Send</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Server-Sent Events JavaScript -->
+    <script src="sse.js"></script>
+</body>
+</html>
